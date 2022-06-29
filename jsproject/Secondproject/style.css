@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 body {
     margin: 0;
     /* background-image: url(./img/img.jpg); */
@@ -35,4 +36,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+}
+.task-done {
+    text-decoration: line-through;
+}
+.task-tabs > div {
+    cursor: pointer;
 }
